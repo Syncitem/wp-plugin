@@ -1,0 +1,177 @@
+<?php return array (
+  'providers' => 
+  array (
+    0 => 'Illuminate\\Auth\\AuthServiceProvider',
+    1 => 'Illuminate\\Bus\\BusServiceProvider',
+    2 => 'Illuminate\\Cache\\CacheServiceProvider',
+    3 => 'Illuminate\\Cookie\\CookieServiceProvider',
+    4 => 'Illuminate\\Database\\DatabaseServiceProvider',
+    5 => 'Illuminate\\Encryption\\EncryptionServiceProvider',
+    6 => 'Illuminate\\Filesystem\\FilesystemServiceProvider',
+    7 => 'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider',
+    8 => 'Illuminate\\Hashing\\HashServiceProvider',
+    9 => 'Illuminate\\Mail\\MailServiceProvider',
+    10 => 'Illuminate\\Notifications\\NotificationServiceProvider',
+    11 => 'Illuminate\\Pagination\\PaginationServiceProvider',
+    12 => 'Illuminate\\Redis\\RedisServiceProvider',
+    13 => 'Illuminate\\Session\\SessionServiceProvider',
+    14 => 'Illuminate\\Translation\\TranslationServiceProvider',
+    15 => 'Illuminate\\Validation\\ValidationServiceProvider',
+    16 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    17 => 'Carbon\\Laravel\\ServiceProvider',
+    18 => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    19 => 'Themosis\\View\\ViewServiceProvider',
+    20 => 'Themosis\\Ajax\\AjaxServiceProvider',
+    21 => 'Themosis\\Asset\\AssetServiceProvider',
+    22 => 'Themosis\\View\\BladeServiceProvider',
+    23 => 'Themosis\\Core\\Providers\\CoreServiceProvider',
+    24 => 'Themosis\\Html\\HtmlServiceProvider',
+    25 => 'Themosis\\Hook\\HookServiceProvider',
+    26 => 'Themosis\\Field\\FieldServiceProvider',
+    27 => 'Themosis\\Forms\\FormServiceProvider',
+    28 => 'Themosis\\Metabox\\MetaboxServiceProvider',
+    29 => 'Themosis\\Metabox\\MetaboxRoutingServiceProvider',
+    30 => 'Themosis\\Page\\PageServiceProvider',
+    31 => 'Themosis\\PostType\\PostTypeServiceProvider',
+    32 => 'Themosis\\Taxonomy\\TaxonomyServiceProvider',
+    33 => 'Themosis\\User\\UserServiceProvider',
+    34 => 'App\\Providers\\AppServiceProvider',
+    35 => 'App\\Providers\\AuthServiceProvider',
+    36 => 'App\\Providers\\RouteServiceProvider',
+  ),
+  'eager' => 
+  array (
+    0 => 'Illuminate\\Auth\\AuthServiceProvider',
+    1 => 'Illuminate\\Cookie\\CookieServiceProvider',
+    2 => 'Illuminate\\Database\\DatabaseServiceProvider',
+    3 => 'Illuminate\\Encryption\\EncryptionServiceProvider',
+    4 => 'Illuminate\\Filesystem\\FilesystemServiceProvider',
+    5 => 'Illuminate\\Notifications\\NotificationServiceProvider',
+    6 => 'Illuminate\\Pagination\\PaginationServiceProvider',
+    7 => 'Illuminate\\Session\\SessionServiceProvider',
+    8 => 'Carbon\\Laravel\\ServiceProvider',
+    9 => 'Themosis\\View\\ViewServiceProvider',
+    10 => 'Themosis\\Ajax\\AjaxServiceProvider',
+    11 => 'Themosis\\Asset\\AssetServiceProvider',
+    12 => 'Themosis\\View\\BladeServiceProvider',
+    13 => 'Themosis\\Core\\Providers\\CoreServiceProvider',
+    14 => 'Themosis\\Html\\HtmlServiceProvider',
+    15 => 'Themosis\\Hook\\HookServiceProvider',
+    16 => 'Themosis\\Field\\FieldServiceProvider',
+    17 => 'Themosis\\Forms\\FormServiceProvider',
+    18 => 'Themosis\\Metabox\\MetaboxRoutingServiceProvider',
+    19 => 'Themosis\\PostType\\PostTypeServiceProvider',
+    20 => 'Themosis\\Taxonomy\\TaxonomyServiceProvider',
+    21 => 'Themosis\\User\\UserServiceProvider',
+    22 => 'App\\Providers\\AppServiceProvider',
+    23 => 'App\\Providers\\AuthServiceProvider',
+    24 => 'App\\Providers\\RouteServiceProvider',
+  ),
+  'deferred' => 
+  array (
+    'Illuminate\\Bus\\Dispatcher' => 'Illuminate\\Bus\\BusServiceProvider',
+    'Illuminate\\Contracts\\Bus\\Dispatcher' => 'Illuminate\\Bus\\BusServiceProvider',
+    'Illuminate\\Contracts\\Bus\\QueueingDispatcher' => 'Illuminate\\Bus\\BusServiceProvider',
+    'cache' => 'Illuminate\\Cache\\CacheServiceProvider',
+    'cache.store' => 'Illuminate\\Cache\\CacheServiceProvider',
+    'memcached.connector' => 'Illuminate\\Cache\\CacheServiceProvider',
+    'auth.password' => 'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider',
+    'auth.password.broker' => 'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider',
+    'hash' => 'Illuminate\\Hashing\\HashServiceProvider',
+    'hash.driver' => 'Illuminate\\Hashing\\HashServiceProvider',
+    'mailer' => 'Illuminate\\Mail\\MailServiceProvider',
+    'swift.mailer' => 'Illuminate\\Mail\\MailServiceProvider',
+    'swift.transport' => 'Illuminate\\Mail\\MailServiceProvider',
+    'Illuminate\\Mail\\Markdown' => 'Illuminate\\Mail\\MailServiceProvider',
+    'redis' => 'Illuminate\\Redis\\RedisServiceProvider',
+    'redis.connection' => 'Illuminate\\Redis\\RedisServiceProvider',
+    'translator' => 'Illuminate\\Translation\\TranslationServiceProvider',
+    'translation.loader' => 'Illuminate\\Translation\\TranslationServiceProvider',
+    'validator' => 'Illuminate\\Validation\\ValidationServiceProvider',
+    'validation.presence' => 'Illuminate\\Validation\\ValidationServiceProvider',
+    'command.tinker' => 'Laravel\\Tinker\\TinkerServiceProvider',
+    'command.down' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.key.generate' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.migrate' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.migrate.fresh' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.migrate.install' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.migrate.refresh' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.migrate.reset' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.migrate.rollback' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.migrate.status' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.package.discover' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.route.cache' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.route.clear' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.route.list' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'Illuminate\\Console\\Scheduling\\ScheduleFinishCommand' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'Illuminate\\Console\\Scheduling\\ScheduleRunCommand' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.up' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.view.clear' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.auth.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.console.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.controller.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.customer.table' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.factory.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.form.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.hook.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.mail.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.middleware.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.migrate.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.model.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.password.reset.table' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.plugin.install' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.provider.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.request.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.resource.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.session.table' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.theme.install' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.vendor.publish' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.serve' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'command.widget.make' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'migrator' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'migration.repository' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'migration.creator' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'composer' => 'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider',
+    'metabox' => 'Themosis\\Metabox\\MetaboxServiceProvider',
+    'page' => 'Themosis\\Page\\PageServiceProvider',
+  ),
+  'when' => 
+  array (
+    'Illuminate\\Bus\\BusServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Cache\\CacheServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Auth\\Passwords\\PasswordResetServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Hashing\\HashServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Mail\\MailServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Redis\\RedisServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Translation\\TranslationServiceProvider' => 
+    array (
+    ),
+    'Illuminate\\Validation\\ValidationServiceProvider' => 
+    array (
+    ),
+    'Laravel\\Tinker\\TinkerServiceProvider' => 
+    array (
+    ),
+    'Themosis\\Core\\Providers\\ConsoleCoreServiceProvider' => 
+    array (
+    ),
+    'Themosis\\Metabox\\MetaboxServiceProvider' => 
+    array (
+    ),
+    'Themosis\\Page\\PageServiceProvider' => 
+    array (
+    ),
+  ),
+);
