@@ -1,8 +1,0 @@
-[2021-09-02 14:35:46] local.ERROR: An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) {"userId":null,"email":null,"exception":"[object] (ErrorException(code: 0): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"https://wordpress.org/support/forums/\">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) at C:\\xampp\\htdocs\\my-project-name\\htdocs\\cms\\wp-admin\\includes\\translation-install.php:68)
-[stacktrace]
-#0 [internal function]: Themosis\\Core\\Bootstrap\\ExceptionHandler->handleError(512, 'An unexpected e...', 'C:\\\\xampp\\\\htdocs...', 68, Array)
-#1 C:\\xampp\\htdocs\\my-project-name\\htdocs\\cms\\wp-admin\\includes\\translation-install.php(68): trigger_error('An unexpected e...', 512)
-#2 C:\\xampp\\htdocs\\my-project-name\\htdocs\\cms\\wp-admin\\includes\\translation-install.php(133): translations_api('core', Array)
-#3 C:\\xampp\\htdocs\\my-project-name\\htdocs\\cms\\wp-admin\\install.php(331): wp_get_available_translations()
-#4 {main}
-"} 
