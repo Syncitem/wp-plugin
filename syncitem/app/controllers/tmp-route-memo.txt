@@ -1,0 +1,22 @@
+.../wp-admin/admin.php?page=syncitem#listing
+
+.../wp-admin/admin.php?page=syncitem#template
+
+.../wp-admin/admin.php?page=syncitem#report
+
+.../wp-admin/admin.php?page=syncitem#setting
+	
+	.../wp-admin/admin.php?page=syncitem&path=setting#woocommerce
+
+	.../wp-admin/admin.php?page=syncitem&path=setting#ebay-US
+
+	.../wp-admin/admin.php?page=syncitem&path=setting#membership
+
+	.../wp-admin/admin.php?page=syncitem&path=setting#account
+
+
+	.../wp-admin/admin.php?page=syncitem&path=setting&account=syncitem-key#create
+
+	.../wp-admin/admin.php?page=syncitem&path=setting&account=syncitem-key#validate
+
+	.../wp-admin/admin.php?page=syncitem&path=setting&account=syncitem-key#recover
