@@ -26,6 +26,15 @@ Log Log Log! Always Catch Class Exceptions & PDO Errors
 
 House Rules
 ----------------
+### Version Control
+
+0.x > Development
+1.x > eBay integration
+2.x > Yahoo Japan
+3.x > Amazon integration
+
+(.x = New feature .x.x = Bug Fix)
+
 ### Do not create branch
 
 Admin will prepaer brach that is specific to your development / Fix
