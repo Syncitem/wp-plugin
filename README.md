@@ -26,13 +26,13 @@ Log Log Log! Always Catch Class Exceptions & PDO Errors
 
 Rules
 ----------------
-### i18n 
+- First item i18n 
 
 Wrap your string ```_e( )```
 
 &nbsp;&nbsp;
 
-### Do not create branch
+- Second item Do not create branch
 
 Admin will prepaer brach that is specific to your development / Fix
 
