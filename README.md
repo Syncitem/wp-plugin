@@ -32,6 +32,12 @@ Wrap your string ```_e( )```
 
 &nbsp;&nbsp;
 
+### - Central Entry Point
+
+Central entry point at index.php
+
+&nbsp;&nbsp;
+
 ### - Do not create branch
 
 Admin will prepaer brach that is specific to your development / Fix
