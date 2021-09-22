@@ -1,0 +1,27 @@
+{
+  "name": "divengine/div",
+  "license": "GPL-3.0-or-later",
+  "description": "Div PHP Template Engine",
+  "keywords": [
+    "template engine",
+    "code generator"
+  ],
+  "homepage": "https://divengine.com",
+  "version": "5.1.6",
+  "authors": [
+    {
+      "name": "Rafa Rodriguez",
+      "email": "rafageist@hotmail.com",
+      "homepage": "https://rafageist.github.io",
+      "role": "Founder"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "divengine\\": "src/"
+    }
+  }
+}

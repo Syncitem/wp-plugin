@@ -7,7 +7,7 @@ Syncitem wordpress plugin connects WooCommerce items to external ecommerce platf
 
 &nbsp;&nbsp;
 
-Development Policy
+Policy
 ------------
 
 ### 1: Simple
@@ -24,9 +24,15 @@ Log Log Log! Always Catch Class Exceptions & PDO Errors
 
 &nbsp;&nbsp;
 
-House Rules
+Rules
 ----------------
-### Do not create branch
+### - i18n 
+
+Wrap your string ```_e( )```
+
+&nbsp;&nbsp;
+
+### - Do not create branch
 
 Admin will prepaer brach that is specific to your development / Fix
 
@@ -46,6 +52,18 @@ https://github.com/sumitpore/mvc-plugin-boilerplate-for-wordpress
 
 Template Engine:
 https://github.com/divengine/div
+
+&nbsp;&nbsp;
+
+Version Control
+------------
+
+<p>0.x > Development</p>
+<p>1.x > eBay integration</p>
+<p>2.x > Yahoo Japan Integration</p>
+<p>3.x > Amazon integration</p>
+
+<p>(.x = New feature .x.x = Bug Fix)</p>
 
 &nbsp;&nbsp;
 
