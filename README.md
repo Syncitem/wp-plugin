@@ -46,7 +46,7 @@ Central entry point at index.php
 
 ### - Do not create branch
 
-Admin will prepaer brach that is specific to your development / Fix
+Admin will prepare brach that is specific to your development / Fix
 
 
 Getting Started:
