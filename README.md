@@ -3,7 +3,7 @@ WP Syncitem Plugin
 
 [![Build Status]()]()
 
-<a herf="#japanese">日本語</a>
+<a href="#japanese">日本語</a>
 
 Syncitem wordpress plugin is a tool for 
 
