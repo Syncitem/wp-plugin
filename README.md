@@ -6,6 +6,7 @@ Build Status
 Syncitem wordpress plugin connects WooCommerce items to external ecommerce platforms via APIs.
 
 
+
 Development Policy
 ------------
 
@@ -22,6 +23,8 @@ Always double check if there is better (faster) way to achieve the goal
 Log Log Log! Always Catch Class Exceptions & PDO Errors
 
 
+
+
 House Rules
 ----------------
 ### Do not create branch
@@ -36,6 +39,7 @@ https://www.udemy.com/course/php-mvc-from-scratch/
 
 
 
+
 Boilerplate
 ------------
 
@@ -44,6 +48,7 @@ https://github.com/sumitpore/mvc-plugin-boilerplate-for-wordpress
 
 Template Engine:
 https://github.com/divengine/div
+
 
 
 
