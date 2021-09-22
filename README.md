@@ -26,6 +26,12 @@ Log Log Log! Always Catch Class Exceptions & PDO Errors
 
 Rules
 ----------------
+### - log
+
+log exceptions & erros to ```log/log.txt```
+
+&nbsp;&nbsp;
+
 ### - i18n 
 
 Wrap your string ```_e( )```
