@@ -1,11 +1,11 @@
-Themosis framework
+WP Syncitem Plugin
 ==================
 
-[![Build Status](https://travis-ci.org/themosis/themosis.svg?branch=dev)](https://travis-ci.org/themosis/themosis)
+[![Build Status]()]()
 
-The Themosis framework is a tool aimed to WordPress developers of any levels. But the better WordPress and PHP knowledge you have the easier it is to work with.
+<a herf="#japanese">日本語</a>
 
-Themosis framework is a tool to help you develop websites and web applications faster using [WordPress](https://wordpress.org). Using an elegant and simple code syntax, Themosis framework helps you structure and organize your code and allows you to better manage and scale your WordPress websites and applications.
+Syncitem wordpress plugin is a tool for 
 
 Installation
 ------------
@@ -31,3 +31,5 @@ For details about contributing to the framework, please check the [contribution 
 License
 -------
 The Themosis framework is open-source software licensed under [GPL-2+ license](http://www.gnu.org/licenses/gpl-2.0.html).
+
+<h2 id="japanese">日本語</h2>
