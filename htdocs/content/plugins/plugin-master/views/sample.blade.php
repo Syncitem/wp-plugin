@@ -1,1 +1,0 @@
-<h1>Plugin Sample View</h1>

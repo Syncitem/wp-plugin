@@ -1,35 +1,52 @@
 WP Syncitem Plugin
 ==================
 
-[![Build Status]()]()
+Build Status
 
-<a href="#japanese">日本語</a>
+Syncitem wordpress plugin connects WooCommerce items to external ecommerce platforms via APIs.
 
-Syncitem wordpress plugin is a tool for 
 
-Installation
+Development Policy
 ------------
-Please see the [installation section](https://framework.themosis.com/docs/master/installation/) of the Themosis documentation.
 
-Development team
+###1: Simple
+
+Keep the code simple and add comments so others can follow easily
+
+###2: Fast
+
+Always double check if there is better (faster) way to achieve the goal
+
+###3: Reliable
+
+Log Log Log! Always Catch Class Exceptions & PDO Errors
+
+
+House Rules
 ----------------
-The framework was created by [Julien Lambé](https://www.themosis.com/), who continues to lead the development.
+###Do not create branch
 
-Contributing
+Admin will prepaer brach that is specific to your development / Fix
+
+
+Getting Started:
+https://www.udemy.com/course/php-mvc-from-scratch/
+(You must request access to this course to admin before starting any work)
+
+
+
+Boilerplate
 ------------
-Any help is appreciated. The project is open-source and we encourage you to participate. You can contribute to the project in multiple ways by:
 
-- Reporting a bug issue
-- Suggesting features
-- Sending a pull request with code fix or feature
-- Following the project on [GitHub](https://github.com/themosis)
-- Following us on Twitter: [@Themosis](https://twitter.com/Themosis)
-- Sharing the project around your community
+MVC:
+https://github.com/sumitpore/mvc-plugin-boilerplate-for-wordpress
 
-For details about contributing to the framework, please check the [contribution guide](https://framework.themosis.com/docs/master/contributing).
+Template Engine:
+https://github.com/divengine/div
 
-License
--------
-The Themosis framework is open-source software licensed under [GPL-2+ license](http://www.gnu.org/licenses/gpl-2.0.html).
 
-<h2 id="japanese">日本語</h2>
+
+Licnse
+------------
+
+GNU GENERAL PUBLIC LICENSE Version 3
