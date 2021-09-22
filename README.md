@@ -30,6 +30,8 @@ Rules
 
 Wrap your string ```_e( )```
 
+&nbsp;&nbsp;
+
 ### Do not create branch
 
 Admin will prepaer brach that is specific to your development / Fix
