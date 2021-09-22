@@ -9,22 +9,22 @@ Syncitem wordpress plugin connects WooCommerce items to external ecommerce platf
 Development Policy
 ------------
 
-###1: Simple
+### 1: Simple
 
 Keep the code simple and add comments so others can follow easily
 
-###2: Fast
+### 2: Fast
 
 Always double check if there is better (faster) way to achieve the goal
 
-###3: Reliable
+### 3: Reliable
 
 Log Log Log! Always Catch Class Exceptions & PDO Errors
 
 
 House Rules
 ----------------
-###Do not create branch
+### Do not create branch
 
 Admin will prepaer brach that is specific to your development / Fix
 
