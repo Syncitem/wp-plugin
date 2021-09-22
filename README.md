@@ -58,12 +58,12 @@ https://github.com/divengine/div
 Version Control
 ------------
 
-0.x > Development
-1.x > eBay integration
-2.x > Yahoo Japan Integration
-3.x > Amazon integration
+<p>0.x > Development</p>
+<p>1.x > eBay integration</p>
+<p>2.x > Yahoo Japan Integration</p>
+<p>3.x > Amazon integration</p>
 
-(.x = New feature .x.x = Bug Fix)
+<p>(.x = New feature .x.x = Bug Fix)</p>
 
 &nbsp;&nbsp;
 
