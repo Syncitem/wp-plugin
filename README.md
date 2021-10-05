@@ -52,7 +52,7 @@ Admin will prepare brach that is specific to your development / Fix
 Getting Started:
 https://www.udemy.com/course/php-mvc-from-scratch/
 
-(You must request access to this course to admin before starting any work)
+(Request for password, QA will fail if you don't follow the basics)
 
 &nbsp;&nbsp;
 
