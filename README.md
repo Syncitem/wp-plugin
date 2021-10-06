@@ -62,9 +62,6 @@ Boilerplate
 MVC:
 https://github.com/sumitpore/mvc-plugin-boilerplate-for-wordpress
 
-Template Engine:
-https://github.com/divengine/div
-
 &nbsp;&nbsp;
 
 Version Control
