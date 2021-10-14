@@ -9,7 +9,7 @@
  * @wordpress-plugin
  * Plugin Name:       MVC WordPress Plugin Boilerplate
  * Plugin URI:        http://example.com/plugin-name-uri/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       This is a plugin for register domain to show it's form use shortcode "[suscribe_email_syncitem]" on your page.
  * Version:           1.0.0
  * Author:            Your Name or Your Company
  * Author URI:        http://example.com/
@@ -84,3 +84,27 @@ function run_plugin_name() {
 }
 
 run_plugin_name();
+
+add_action('init', 'callback_for_syncitem_up_scripts');
+
+function callback_for_syncitem_up_scripts() {
+
+wp_register_style( 'mypluginadminstylesheet', plugin_dir_url( __FILE__ ) . 'assets/css/frontend/dashboard.css' );
+wp_register_style( 'mypluginadminstylesheet2', plugin_dir_url( __FILE__ ) . 'assets/css/frontend/bootstrap.min.css' );
+
+wp_enqueue_style('mypluginadminstylesheet');
+wp_enqueue_style('mypluginadminstylesheet2');
+
+}
+
+
+add_action( 'init', 'process_shortcode_email' );
+function process_shortcode_email(){
+	add_shortcode( 'suscribe_email_syncitem', 'suscribe_email_syncitem' );
+}
+
+function suscribe_email_syncitem () {
+	ob_start();
+	include 'app/views/frontend/syncitem-key-validate.php';
+	return ob_get_clean();
+}
